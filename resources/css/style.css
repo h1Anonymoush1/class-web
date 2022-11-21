@@ -46,3 +46,8 @@ a:hover{
     color: white;
     transition: color .25s linear;
 }
+
+#chat{
+    border: 0.125rem solid royalblue;
+    margin-bottom: 1rem;
+}
