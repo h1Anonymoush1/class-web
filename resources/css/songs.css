@@ -72,9 +72,9 @@ a.links:hover{
 }
 
 a#downall:hover{
-    color: darkgray;
-    background-color: royalblue;
-    border: .125rem solid darkgray;
+    color: royalblue;
+    background-color: darkgray;
+    border: .125rem solid royalblue;
     font-size: 3rem;
     transition: color .25s linear, background-color .25s linear, border .25s linear, font-size .25s linear;
 }
