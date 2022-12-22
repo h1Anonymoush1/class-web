@@ -1,0 +1,49 @@
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    color: royalblue;
+    background-color: darkgray;
+    z-index: 10;
+}
+
+.headerh1{
+    font-size: 2rem;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    gap: 1rem;
+}
+
+.nav-link{
+    
+    border: 0.125rem solid royalblue;
+    border-radius: 0.3125rem;
+}
+
+a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+
+.nav-link:hover{
+    background-color: royalblue;
+    border: 0.125rem solid white;
+    transition: background-color .25s linear, border .25s linear;
+}   
+
+a:hover{
+    color: white;
+    transition: color .25s linear;
+}
+
