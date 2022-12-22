@@ -30,7 +30,7 @@ header{
     border-radius: 0.3125rem;
 }
 
-a{
+ .nav-links a{
     text-decoration: none;
     color: royalblue;
 }
@@ -42,7 +42,7 @@ a{
     transition: background-color .25s linear, border .25s linear;
 }   
 
-a:hover{
+.nav-links a:hover{
     color: white;
     transition: color .25s linear;
 }
