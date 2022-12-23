@@ -11,6 +11,8 @@ header{
     color: royalblue;
     background-color: darkgray;
     z-index: 10;
+    position:fixed;
+    width: 100%;
 }
 
 .headerh1{
@@ -48,3 +50,13 @@ header{
     transition: color .25s linear;
 }
 
+.gallery{
+
+}
+.pic{
+
+}
+
+.down{
+
+}
