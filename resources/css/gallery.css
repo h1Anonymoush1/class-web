@@ -48,3 +48,35 @@ header{
     color: white;
     transition: color .25s linear;
 }
+
+.downloads{
+    margin-top: 3rem;
+    border: .25rem royalblue solid;
+    padding: 3rem;
+    border-radius: 1rem;
+    background-color: darkgrey;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.pic img{
+    width: 18rem;
+    height: 20rem;
+    border-radius: 1rem;
+    padding: .25rem;
+}
+
+.pic a{
+    color: royalblue;
+    text-decoration: none;
+    border: 0.125rem solid royalblue;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+
+.pic a:hover{
+    font-size: 3rem;
+    color: darkgray;
+    background-color: royalblue;
+    transition: all linear .25s;
+}
