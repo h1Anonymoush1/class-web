@@ -75,7 +75,7 @@ header{
 }
 
 .pic a:hover{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: darkgray;
     background-color: royalblue;
     transition: all linear .25s;
