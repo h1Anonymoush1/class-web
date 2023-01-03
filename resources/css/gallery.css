@@ -72,6 +72,7 @@ header{
     border: 0.125rem solid royalblue;
     font-size: 2rem;
     border-radius: 2rem;
+    display: inline-block;
 }
 
 .pic a:hover{
@@ -79,6 +80,7 @@ header{
     color: darkgray;
     background-color: royalblue;
     transition: all linear .25s;
+    transform: rotate(1.0turn);
 }/*
 
 .downall{
