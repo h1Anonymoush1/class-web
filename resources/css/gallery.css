@@ -12,6 +12,8 @@ header{
     background-color: darkgray;
     z-index: 10;
     width: 100%;
+    position:fixed;
+    top: 0px;
 }
 
 .headerh1{
@@ -50,7 +52,7 @@ header{
 }
 
 .downloads{
-    margin-top: 3rem;
+    margin-top: 6rem;
     border: .25rem royalblue solid;
     padding: 3rem;
     border-radius: 1rem;
