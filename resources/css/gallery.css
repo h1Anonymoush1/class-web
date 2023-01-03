@@ -81,24 +81,42 @@ header{
     background-color: royalblue;
     transition: all linear .25s;
     transform: rotate(1.0turn);
-}/*
+}
 
-.downall{
-    padding: 1rem;
+.allpics{
     text-align: center;
-    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: .25rem royalblue solid;
+    border-radius: 1rem;
+    background-color: darkgray;
+    display: block;
+    pointer-events: none;
 }
 
- .downall a{
-    color:royalblue;
-    background-color: darkgrey;
-    text-decoration: none;
-    font-size: 3rem;
-    align-items: center;
-}
-
-.downall a:hover{
-    color: darkgray;
+.allpics:hover{
+    transform: rotate(-1.0turn);
     background-color: royalblue;
-    transition: all linear .25s;
+    border-color: darkgray;
+    transition: all linear .5s;
+}
+
+.allpics a{
+    color: royalblue;
+    text-decoration:none;
+    font-size: 2.5rem;
+    border: .2rem royalblue solid;
+    border-radius: 2rem;
+    display: inline-block;
+    pointer-events: auto;
+}
+
+.allpics a:hover{
+    color: darkgrey;
+    background-color: royalblue;
+    font-size: 3.0rem;
+    transform: rotate(2.0turn);
+    border-color: darkgray;
+    box-shadow: 5px 5px 1rem black;
+    transition: all linear .5s;
 }
