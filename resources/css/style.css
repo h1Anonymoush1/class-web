@@ -11,8 +11,9 @@ header{
     color: royalblue;
     background-color: darkgray;
     z-index: 10;
-    position:fixed;
     width: 100%;
+    position:fixed;
+    top: 0px;
 }
 
 .headerh1{
@@ -51,6 +52,7 @@ a:hover{
 }
 
 #chat{
+    margin-top: 4rem;
     border: 0.125rem solid royalblue;
     margin-bottom: 1rem;
 }
