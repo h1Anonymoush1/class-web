@@ -83,6 +83,8 @@ header{
     background-color: royalblue;
     transition: all linear .25s;
     transform: rotate(1.0turn);
+    box-shadow: 5px 5px 1rem black;
+    z-index: 10;
 }
 
 .allpics{
