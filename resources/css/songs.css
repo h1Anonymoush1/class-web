@@ -81,24 +81,6 @@ a.down:hover{
     transition: font-size .25s linear,border .25s linear,color .25s linear,background-color .25s linear,border-radius .25s linear;
 }
 
-.back{
-    margin-top: 2rem;
-}
-
-.links{
-    font-size: 2.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-
-a.links:hover{
-    color: royalblue;
-    background-color: darkgray;
-    border:.125rem solid royalblue ;
-    font-size: 3rem;
-    transition: color .25s linear,background-color .25s linear, border .25s linear,font-size .25s linear;
-}
-
 .downall{
     font-size: 2rem;
     margin-top: 1rem;
