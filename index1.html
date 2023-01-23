@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head><script src="./resources/javascript/main1.js" async defer></script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>10th Grade Web</title>
@@ -23,17 +23,27 @@
     </head>
     <body>
         <header>
-                <h1 class="headerh1">10th Grade Mevakshai Torah</h1>
-                <ul class="nav-links">
+                <h1 class="headerh1" id="headerh1">10th Grade Mevakshai Torah</h1>
+                <h1 id="arrow">≡</h1>
+                <h1 id="arrow1">≡</h1>
+                <div id="nlinks">
+                  <ul class="nav-links">
                     <li class="nav-link"><a href="./index1.html">Home</a></li>
                     <li class="nav-link"><a href="./resources/html/gallery.html">Gallery</a></li>
                     <li class="nav-link"><a href="./resources/html/songs.html">Songs</a></li>
                     <!--<li class="nav-link"><a href="./resources/html/about.html">About</a></li>-->
                     <li class="nav-link"><a href="./index.html">Sign Out</a></li>
-                </ul>
+                  </ul>
+                </div>
         </header>
         <div id="chat">
-            <script src="https://widgets.remind.com/iframe.js?token=b24a5ef04b4e013bc1a90242ac110008&height=500&join=false"></script>
+            <div id="buttonsection">
+                <button id="hidec">Hide chat</button>
+                <button id="showc">Show chat</button>
+            </div>
+            <div id="scriptchat">
+                <script src="https://widgets.remind.com/iframe.js?token=b24a5ef04b4e013bc1a90242ac110008&height=500&join=false"></script>
+            </div>
         </div>
         <div id="weather">
             <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/?unit=us" data-label_1="NEW YORK" data-label_2="WEATHER" data-theme="original" >NEW YORK WEATHER</a>
@@ -45,6 +55,6 @@
         <footer>
 
         </footer>
-        <script src="" async defer></script>
+        
     </body>
 </html>
