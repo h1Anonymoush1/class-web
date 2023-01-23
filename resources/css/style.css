@@ -69,6 +69,14 @@ a:hover{
 }
 
 #showc{
+    font-size: 2rem;
+    color: royalblue;
+    background-color: darkgray;
+    border-radius: 2rem;
+    display: inline;
+}
+
+#hidec{
     display: none;
     font-size: 2rem;
     color: royalblue;
@@ -76,12 +84,8 @@ a:hover{
     border-radius: 2rem;
 }
 
-#hidec{
-    display: inline;
-    font-size: 2rem;
-    color: royalblue;
-    background-color: darkgray;
-    border-radius: 2rem;
+#scriptchat{
+    display: none;
 }
 
 #chat{

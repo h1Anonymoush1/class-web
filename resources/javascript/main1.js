@@ -32,14 +32,23 @@
                 showButton.style.display='inline';
                 hideButton.style.display='none';
                 chatS.style.display='none';
-
             }
 
             function showChat(){
                 showButton.style.display='none';
                 hideButton.style.display='inline';
-                chatS.style.display='block';
+                var password = 2007;
+                var x = prompt("Enter in the password "," ");
+                if (x.toLowerCase() == password) {
+                //alert("Come right in \n \n You've entered in the right password");
+                chatS.style.display='block';;
+                } else {
+                //alert("please try again")
+                hideChat();
+                }
             }
 
             hideButton.addEventListener('click', hideChat);
             showButton.addEventListener('click', showChat);
+
+
