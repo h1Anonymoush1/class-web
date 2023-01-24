@@ -4,6 +4,16 @@
 
             const nlinks = document.getElementById('nlinks');
 
+            const headerH1 = document.getElementById('headerh1');
+
+            var x = window.matchMedia("(max-width: 786px)")
+            ipad(x) // Call listener function at run time
+            x.addListener(ipad) // Attach listener function on state changes
+
+            /*var y = window.matchMedia("(max-width: 480px)")
+            mobile(y) // Call listener function at run time
+            x.addListener(mobile) // Attach listener function on state changes*/
+
             function hideLinks(){
                 nlinks.style.display='none';
                 arrow.style.display='none';
@@ -51,4 +61,13 @@
             hideButton.addEventListener('click', hideChat);
             showButton.addEventListener('click', showChat);
 
+            //media quary ipad
+            function ipad(x) {
+                if (x.matches) { 
+                  nlinks.style.display='none';
+                  arrow.style.display='none';
+                  arrow1.style.display='inline';
+                  arrow.style.right='16rem';
+                }
+              }
 

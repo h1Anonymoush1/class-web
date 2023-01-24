@@ -93,11 +93,30 @@ a:hover{
     border: 0.125rem solid royalblue;
     margin-bottom: 1rem;
 }
-/*@media only screen and(max-width: 480px) {
-    header {
-        display: flex;
+
+@media only screen and (max-width:786px) {
+    .headerh1{
+        font-size: 1rem;
     }
-    .headerh1 {
-        font-size: .5rem;
+
+    .nav-links{
+        font-size: 1rem;
     }
+
+    .nav-link:hover{
+        border: none;
+        color: royalblue;
+        background-color: darkgray;
+    }
+
+    .nav-link{
+        border: none;
+    }
+    #arrow, #arrow1{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
 }
