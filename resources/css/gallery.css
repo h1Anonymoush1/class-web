@@ -20,6 +20,19 @@ header{
     font-size: 2rem;
 }
 
+#arrow{
+    font-size: 4rem;
+    display:inline;
+    position: fixed;
+    right: 29rem;
+}
+#arrow1{
+    font-size: 4rem;
+    display: none;
+    position: fixed;
+    right: 0rem;
+}
+
 .nav-links{
     display: flex;
     justify-content: space-between;
