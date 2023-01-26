@@ -45,13 +45,13 @@
             }
 
             function showChat(){
-                showButton.style.display='none';
-                hideButton.style.display='inline';
                 var password = 2007;
                 var x = prompt("Enter in the password "," ");
                 if (x.toLowerCase() == password) {
                 //alert("Come right in \n \n You've entered in the right password");
-                chatS.style.display='block';;
+                chatS.style.display='block';
+                showButton.style.display='none';
+                hideButton.style.display='inline';
                 } else {
                 //alert("please try again")
                 hideChat();
