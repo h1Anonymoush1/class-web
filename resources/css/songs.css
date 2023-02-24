@@ -64,50 +64,82 @@ a:hover{
 }
 
 
-.song{
+.downloads{
+    margin-top: 6rem;
+    border: .25rem royalblue solid;
+    padding: 3rem;
+    border-radius: 1rem;
+    background-color: darkgrey;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.song audio{
+    border-radius: 1rem;
+    padding: .25rem;
+    background-color: royalblue;
+}
+
+.song h2{
+    color:royalblue;
     font-size: 1.5rem;
 }
 
-#songs {
-background-color: royalblue;
-display: grid;
-grid-template: 1fr 1fr 1fr/1fr 1fr ;
-gap: 1rem;
-color: darkgray;
-height: auto;
-margin-top: 4rem;
-border: .125rem solid darkgray;
-border-radius:0.3125rem;
-}
-
-a{
+.song a{
+    color: royalblue;
     text-decoration: none;
-    color: darkgray ;
-}
-
-a.down:hover{
-    color: royalblue;
-    background-color: darkgray;
-    font-size: 2.5rem;
-    border: .125rem solid white;
-    border-radius: 2rem;
-    transition: font-size .25s linear,border .25s linear,color .25s linear,background-color .25s linear,border-radius .25s linear;
-}
-
-.downall{
+    border: 0.125rem solid royalblue;
     font-size: 2rem;
-    margin-top: 1rem;
-    background-color: royalblue;
-    border: .125rem solid darkgray;
-    height: 3rem;
-    text-align: center;
-    
+    border-radius: 2rem;
+    display: inline-block;
+
 }
 
-a#downall:hover{
-    color: royalblue;
+.song a:hover{
+    font-size: 2.5rem;
+    color: darkgray;
+    background-color: royalblue;
+    transition: all linear .25s;
+    transform: rotate(1.0turn);
+    box-shadow: 5px 5px 1rem black;
+    z-index: 10;
+}
+
+.allsongs{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: .25rem royalblue solid;
+    border-radius: 1rem;
     background-color: darkgray;
-    border: .125rem solid royalblue;
-    font-size: 3rem;
-    transition: color .25s linear, background-color .25s linear, border .25s linear, font-size .25s linear;
+    display: block;
+    pointer-events: none;
+}
+
+.allsongs:hover{
+    transform: rotate(-1.0turn);
+    background-color: royalblue;
+    border-color: darkgray;
+    transition: all linear .5s;
+}
+
+.allsongs a{
+    color: royalblue;
+    text-decoration:none;
+    font-size: 2.5rem;
+    border: .2rem royalblue solid;
+    border-radius: 2rem;
+    display: inline-block;
+    pointer-events: auto;
+}
+
+.allsongs a:hover{
+    color: darkgrey;
+    background-color: royalblue;
+    font-size: 3.0rem;
+    transform: rotate(2.0turn);
+    border-color: darkgray;
+    box-shadow: 5px 5px 1rem black;
+    transition: all linear .5s;
 }
