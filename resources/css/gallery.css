@@ -137,3 +137,26 @@ header{
     box-shadow: 5px 5px 1rem black;
     transition: all linear .5s;
 }
+
+@media only screen and (max-width:786px) {
+    .headerh1{
+        font-size: 1rem;
+    }
+
+    .nav-links{
+        font-size: 1rem;
+    }
+
+    .nav-link:hover{
+        border: none;
+        color: royalblue;
+        background-color: darkgray;
+    }
+
+    .nav-link{
+        border: none;
+    }
+    #arrow, #arrow1{
+        font-size: 2rem;
+    }
+}
